@@ -22,7 +22,7 @@ For the work I did.  2 Options:
 
 A) Just get it working as is:  If just want to download the Prod version to a M5StickC Plus (or similar ESP32):
 1) If you are new to Arduino/PlatformIO, suggest googling setup tutorials - there are plenty out there
-2) Download the TEST version and load up in PlatformIO or Arduino IDE
+2) Use the version (main.cpp) and load up in PlatformIO or Arduino IDE (rename to .ino)
 3) You will need the following libraries:  Adafruit NeoPixel, IRremoteESP8266, IRsend, Wire, U8g2Lub
 4) Download the code to the M5StickC Plus. Using the "B" button on the side near the screen, you can select the modes. Select a mode, then click the "A" button on top to start the sequence. To have repeat, click and hold "B" for a few seconds to enable repeat.  NOTE! I didn't get as far as putting an interrupt on the "B" button, so to get out of repeat mode, just keep clicking it for a few seconds until it catches and breaks out of the loop.
 
@@ -31,7 +31,7 @@ A) Just get it working as is:  If just want to download the Prod version to a M5
 B) If you want to debug more codes using the web interface (https://ivanr3d.com/tools/led-wristband/)
 with this as reference (https://ivanr3d.com/tools/led-wristband/js/effects_definitions.js):
 1) If you are new to Arduino/PlatformIO, suggest googling setup tutorials - there are plenty out there
-2) Download the TEST version and load up in PlatformIO or Arduino IDE
+2) Use the mainDebugToOLED.cpp version in PlatformIO or Arduino IDE (rename to .ino)
 3) You will need the following libraries:  Adafruit NeoPixel, IRremoteESP8266, IRsend, Wire, U8g2Lub
 4) In this case, a knock-off ESP32C3 was used. If using something different, then you will need to change the Board reference in PlatformIO or the ArduinoIDE
 5) Will also need an OLED screen and IR emitter LED. In this case, an SH1106 128x64 OLED was used. If using something different, you will have to adjust the screen driver in U8g2
