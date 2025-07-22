@@ -18,7 +18,7 @@ https://github.com/danielweidman/pixmob-ir-reverse-engineering/blob/main/www/js/
 https://github.com/crankyoldgit/IRremoteESP8266/wiki#ir-sending
 https://ivanr3d.com/tools/led-wristband/
 
-For the work I did.  2 Options:
+There are 2 Options: A) Just get it going B) Use the debug version to read codes to create new ones.
 
 A) Just get it working as is:  If just want to download the Prod version to a M5StickC Plus (or similar ESP32):
 1) If you are new to Arduino/PlatformIO, suggest googling setup tutorials - there are plenty out there
