@@ -31,7 +31,7 @@ A) Just get it working as is:  If just want to download the Prod version to a M5
 B) If you want to debug more codes using the web interface (https://ivanr3d.com/tools/led-wristband/)
 with this as reference (https://ivanr3d.com/tools/led-wristband/js/effects_definitions.js):
 1) If you are new to Arduino/PlatformIO, suggest googling setup tutorials - there are plenty out there
-2) Use the mainDebugToOLED.cpp version in PlatformIO or Arduino IDE (rename to .ino)
+2) For PlatformIO: Rename mainDebugToOLED.cpp.txt (remove .txt), then rename main.cpp to main.cpp.txt (avoids compiling issues).  For Arduino IDE: rename to .ino
 3) You will need the following libraries:  Adafruit NeoPixel, IRremoteESP8266, IRsend, Wire, U8g2Lub
 4) In this case, a knock-off ESP32C3 was used. If using something different, then you will need to change the Board reference in PlatformIO or the ArduinoIDE
 5) Will also need an OLED screen and IR emitter LED. In this case, an SH1106 128x64 OLED was used. If using something different, you will have to adjust the screen driver in U8g2
